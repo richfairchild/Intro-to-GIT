@@ -1,6 +1,8 @@
 ---
-title: "Introduction to dplyr
-output: html_notebook
+title: "Introduction to dplyr"
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r, echo = FALSE, message = FALSE}
