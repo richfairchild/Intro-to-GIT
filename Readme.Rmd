@@ -33,7 +33,7 @@ All team members:
 
 3. Pull it into your local environment (or can all be done in the browser on github.com).
 4. You might need to add the original repo as your upstream: 
-`git remote add upsteam https://github.com/LiRogers/Intro-to-GIT.git`
+`git remote add upstream https://github.com/LiRogers/Intro-to-GIT.git`
 Github desktop will do this for you.
 5. Create a new branch in your fork and fill in some of the answers in dplyr_tutorial in your local environment.
 6. Push your branch to github.
