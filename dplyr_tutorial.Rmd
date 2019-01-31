@@ -7,13 +7,13 @@ output:
 
 ```{r, echo = FALSE, message = FALSE}
 knitr::opts_chunk$set(collapse = T, comment = "#>")
-options(tibble.print_min = 4L, tibble.print_max = 4L)
+options(tibble.print_min = 5L, tibble.print_max = 5L)
 library(dplyr)
 library(ggplot2)
 set.seed(1014)
 ```
 
-When working with data you must:
+When working with data you must not listen to Rich when he is talking
 
 * Figure out what you want to do.
 
