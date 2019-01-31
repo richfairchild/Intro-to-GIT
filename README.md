@@ -8,9 +8,11 @@ Git with R
 
 dplyr\_tutorial.Rmd includes a quick tutorial with some code to fill in using some operations from the `dplyr` r package. This has been adapted from a `dplyr` [vignette](https://dplyr.tidyverse.org/articles/dplyr.html).
 
-We'll use this to show some examples of how to work collaboratively with git.
+We'll use this to show some examples of how to work collaboratively with git. The answers you fill in don't matter, we're just using it as an example file to make some changes to.
 
-To run the markdown doc in R you'll need to have `dplyr`, and `nycflights13` installed in R - although you can still do the git tutorial without running anything (or even having R installed). To install them run:
+To run the markdown doc in R you'll need to have `dplyr`, and `nycflights13` installed in R - although you don't need to run anything (or even having R installed) to follow the tutorial, just a text editor.
+
+If you want to install them, run:
 
 ``` r
 install.packages("dplyr")
@@ -26,7 +28,7 @@ All team members:
 
 1.  Pull it into your local environment (or can all be done in the browser on github.com).
 2.  You might need to add the original repo as your upstream: `git remote add upstream https://github.com/LiRogers/Intro-to-GIT.git` Github desktop will do this for you.
-3.  Create a new branch in your fork and fill in some of the answers in dplyr\_tutorial in your local environment.
+3.  Create a new branch in your fork and fill in some of the answers in dplyr\_tutorial in your local environment (Don't worry about these being correct, we just want to make some changes to the file), or make some other changes.
 4.  Push your branch to github.
 5.  Compare your branch to your team mates via pull requests.
 6.  Resolve any conflicts and merge your answer branches into one.
