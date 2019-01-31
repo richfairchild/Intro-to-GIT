@@ -13,7 +13,7 @@ library(ggplot2)
 set.seed(1014)
 ```
 
-When working with data you must not listen to Rich when he is talking but not listening
+When working with data you must not listen to Rich when he is talking but not listening xxx
 
 * Figure out what you want to do.
 
