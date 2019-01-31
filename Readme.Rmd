@@ -1,0 +1,53 @@
+---
+title: "Intro to git"
+author: "Libby Rogers"
+date: "January 31, 2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Git with R
+----------
+
+dplyr\_tutorial.Rmd includes a quick tutorial with some code to fill in using some operations from the `dplyr` r package. This has been adapted from a `dplyr` [vignette](https://dplyr.tidyverse.org/articles/dplyr.html).
+
+We'll use this to show some examples of how to work collaboratively with git.
+
+To run the markdown doc in R you'll need to have `dplyr`, and `nycflights13` installed in R - although you can still do the git tutorial without running anything (or even having R installed). To install them run:
+
+```{r, eval = FALSE}
+install.packages("dplyr")
+install.packages("nycflights13")
+```
+
+
+Team leader
+
+1.  Fork this repo into your own github account as a private repo.
+2.  Add your team as collaborators.
+
+All team members: 
+
+3. Pull it into your local environment (or can all be done in the browser on github.com).
+4. You might need to add the original repo as your upstream: 
+`git remote add upsteam https://github.com/LiRogers/Intro-to-GIT.git`
+Github desktop will do this for you.
+5. Create a new branch in your fork and fill in some of the answers in dplyr_tutorial in your local environment.
+6. Push your branch to github.
+7. Compare your branch to your team mates via pull requests.
+8. Resolve any conflicts and merge your answer branches into one. 
+9. Compare this to the dplyr-solutions branch. 
+10. Resolve any conflicts and merge into one branch.
+11. Fetch the upstream repo to see if anything has changed.
+12. Merge your branch into the master branch in your fork, rebase if necessary.
+13. Submit a pull request to merge your master with the upstream master on github.
+
+Useful links:
+
+(https://help.github.com/)
+
+
+
