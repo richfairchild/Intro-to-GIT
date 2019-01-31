@@ -47,7 +47,7 @@ Github desktop will do this for you.
 
 Useful links:
 
-(https://help.github.com/)
+https://help.github.com/
 
 
 

@@ -38,4 +38,4 @@ All team members:
 
 Useful links:
 
-(<https://help.github.com/>)
+<https://help.github.com/>
